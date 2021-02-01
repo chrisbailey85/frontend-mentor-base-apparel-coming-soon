@@ -263,10 +263,18 @@ footer .attribution a {
     padding-left: 10rem;
   }
   .main-content {
-    padding: 3rem 10rem;
+    padding: 3rem 15rem;
   }
   .image {
     background-size: cover;
+  }
+}
+
+@media (pointer: fine) {
+  form .btn:hover {
+    -webkit-box-shadow: 0 0px 15px #ce9797;
+            box-shadow: 0 0px 15px #ce9797;
+    cursor: pointer;
   }
 }
 /*# sourceMappingURL=main.css.map */
